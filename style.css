@@ -8,3 +8,33 @@
     --white:#fff;
 }
 
+body{
+    background: var(--gray);
+}
+
+nav{
+    text-align: center;
+    padding-top: 200px;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    display: inline;
+}
+
+
+nav li a{
+    font-family: "Roboto";
+    font-weight: 700;
+    background: var(--blue);
+    text-decoration: none;
+    color: var(--white);
+    padding: 20px 40px 20px 40px; 
+}
+
+a:hover{
+    background: var(--white);
+    color: var(--blue);
+}

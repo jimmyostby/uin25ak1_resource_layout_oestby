@@ -10,6 +10,12 @@
 
 body{
     background: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 #menu{
@@ -45,24 +51,9 @@ p{
     font-family: "Roboto";
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav li{
     list-style: none;
 }
-
 
 a:hover{
     background: var(--white);

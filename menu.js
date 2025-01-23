@@ -31,10 +31,11 @@ document.getElementById("menu").innerHTML = informasjonHTML
 function content(category){
     const filter = resources.filter (item => item.category === category)
     const clicked = filter [0]
-    const information = `<h2>${clicked.category}</h2>
+    const informationHTML = `
+    <h2>${clicked.category}</h2>
                         <p id="text">${clicked.text}</p>`
 
-    document.getElementById("content").innerHTML=information
+    document.getElementById("content").innerHTML=informationHTML
     }
 
 content("HTML")

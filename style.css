@@ -12,29 +12,57 @@ body{
     background: var(--gray);
 }
 
-#menu ul{
+#menu{
+    color: var(--white);
+    display: flex;
     justify-content: center;
-    display: inline-block;
 }
+
+h2{
+    font-family: "Roboto";
+}
+
+
+#menu ul{
+    margin-left: 20px;
+    display: inline-block;
+    color: var(--white);
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    background-color: var(--blue);
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+
+ul li a{
+    list-style: none;
+}
+
+
+p{
+    color: var(--blue);
+    font-family: "Roboto";
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 nav li{
     list-style: none;
-    text-align: center;
-    display: flex;
-    display: inline;
 }
 
-
-nav li a{
-    font-family: "Roboto";
-    font-weight: 700;
-    background: var(--blue);
-    text-decoration: none;
-    color: var(--white);
-    padding: 20px 40px 20px 40px; 
-}
 
 a:hover{
     background: var(--white);

@@ -30,3 +30,4 @@ function content(category){
 
 content("HTML")
 
+//Feilsøkt koden ved hjelp av chat-gpt, men brukte ikke løsningen den kom med, da jeg ikke forstod hva den mente. 

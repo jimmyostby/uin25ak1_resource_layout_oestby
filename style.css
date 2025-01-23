@@ -12,10 +12,12 @@ body{
     background: var(--gray);
 }
 
-nav{
-    text-align: center;
-    padding-top: 200px;
+#menu ul{
+    justify-content: center;
+    display: inline-block;
 }
+
+
 
 nav li{
     list-style: none;

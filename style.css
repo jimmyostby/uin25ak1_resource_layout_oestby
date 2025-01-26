@@ -32,8 +32,22 @@ header{
 
 #menu{
     color: var(--white);
-    display: flex;
     justify-content: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#menu button{
+    padding: 20px;
+}
+
+#menu ul{
+    display: inline-block;
+}
+
+#menu ul li{
+    margin-right: 44px;
 }
 
 h2{
@@ -41,9 +55,7 @@ h2{
 }
 
 #menu ul button{
-    display: flex;
     display: inline-block;
-    justify-content: space-between;
     color: var(--white);
     font-family: "Roboto";
     font-weight: 500;
@@ -54,15 +66,15 @@ h2{
     border: 0;
 }
 
+ul{
+    margin-bottom: 0;
+}
+
 ul li a {
     font-family: "Roboto";
     font-size: 15px;
 }
 
-ul{
-    margin-bottom: 0;
-    
-}
 
 
 main {
@@ -80,6 +92,7 @@ p{
 
 nav li{
     list-style: none;
+    padding: 0;
 }
 
 a:hover{

@@ -1,5 +1,7 @@
 let informasjonHTML = ""
 
+//Blitt peket i riktig retning på kodelinje 5-12 av foreleser Marius.
+
 resources.map(resource => informasjonHTML += `
             <ul id="menu">
                 <li>
@@ -10,6 +12,8 @@ resources.map(resource => informasjonHTML += `
 `)
 
 document.getElementById("menu").innerHTML = informasjonHTML
+
+/*Kodelinje 18-31 har jeg fått forklart og hjelp til å skrive av medstudent Hanna Hänel Sørum, da jeg ikke fikk til løsningnen selv.*/ 
 
 function content(category){
     const filter = resources.filter (item => item.category === category)
@@ -23,12 +27,11 @@ function content(category){
             ).join("")}
         </ul>
         `
-        
-
     document.getElementById("content").innerHTML=informationHTML
     }
 
 content("HTML")
 
-//Feilsøkt koden ved hjelp av chat-gpt, men brukte ikke løsningen den kom med, da jeg ikke forstod hva den mente. 
+/*Fikk i starten en del error, feilsøkt koden ved hjelp av chat-gpt, 
+men brukte ikke løsningen den kom med, da jeg ikke forstod hva den mente. */
 
